@@ -82,7 +82,7 @@
 
 		<script type="text/javascript">
 
-$(function () {
+(function ($) {
     var chart;
     $(document).ready(function() {
         chart = new Highcharts.Chart({
@@ -137,7 +137,7 @@ $(function () {
         });
     });
     
-});
+})(jQuery);
 		</script>
                 
 {/nocache}
